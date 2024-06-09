@@ -1,0 +1,130 @@
+.content
+    
+     
+
+.container
+     
+.content__header
+    display: flex 
+    justify-content: space-around
+    margin-bottom: 3rem
+    @include tablet
+        flex-direction: column 
+        text-align: center
+        margin-bottom: .1rem
+.title
+    font-size: 2.6rem
+    color:  $color-violet-dark
+    @include tablet 
+        margin-bottom: .1rem
+.text 
+    font-size: 2rem 
+    color: $color-violet-dark
+
+
+
+.content__bady
+    margin-bottom: 4rem 
+.services
+    display: grid 
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 1rem 1rem 
+    @include Desktop
+        grid-template-columns: repeat(2, 1fr) 
+       
+    @include mobile
+        grid-template-columns: repeat(1, 1fr) 
+         
+        
+       
+    
+.services__ul
+    padding: 0 
+    margin: 0
+   
+    
+    
+.service__box
+    display: flex 
+    justify-content: space-between 
+    box-shadow: 0 .2rem .7rem 0  $color-violet-dark
+    min-height: 18rem 
+    width: 37rem
+    padding: 3rem 
+    background-color:#c968d072
+    border-radius: 3rem
+    @include Desktop
+        width: 100%
+       
+.service_color
+        background-color: #803f7bd0
+         
+.service__text
+    display: flex 
+    flex-direction: column 
+    justify-content: space-between
+    
+   
+
+    
+
+.services__h3 
+    color: $color-violet-dark 
+    font-size: 1.8rem
+.service_color-h3
+    background-color: #fff 
+    box-shadow: 0 .1rem .3rem  $color-violet-dark
+    text-shadow: 0 .3rem .8rem  $color-violet-dark
+
+
+.services__a 
+    cursor: pointer
+    font-size: 1.5rem  
+    color: $color-violet-dark
+    transition-duration: .1s 
+    &:hover
+        font-weight: 600
+     
+.services__img 
+    width: 44%
+///banner////R
+
+
+.banner
+    display: flex 
+    flex-direction: column
+    background: linear-gradient(90deg, rgba(255,255,255,1) 22%, rgba(201, 104, 208, 0.641) 100%) 
+    margin: 0 auto
+    width: 97rem
+    height: 15rem
+    border-radius: 3rem
+    align-items: start 
+    padding: 1.5rem 2rem
+    align-items: center
+    box-shadow: 0 .2rem .5rem 0 $color-violet-dark
+    margin-bottom: 4rem
+    @include tablet
+        width: 100% 
+        height: 100%
+.banner__h3 
+    font-size: 2.3rem 
+    font-weight: 500
+    margin-bottom: .3rem
+    color:$color-violet-dark 
+    
+    
+
+.banner__p 
+    font-size: 1.5rem 
+    wont-weight:200
+    color: $color-violet-dark
+    transition-duration: .4s 
+    &:hover
+        font-weight: 500
+    
+ 
+
+
+   
+    
+   
